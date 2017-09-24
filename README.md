@@ -15,4 +15,4 @@ Smyšlená hudební skupina vytvořená těmito webovými technologiemi:
 **real-name:** František Petko
 
 ****
-**Webový link** http://portfolio-praci.16mb.com/band
+**Webový link** http://fp-portfolio.890m.com/band/
