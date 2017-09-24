@@ -13,3 +13,6 @@ Smyšlená hudební skupina vytvořená těmito webovými technologiemi:
 ****
 **git-nick:** deathbreaker
 **real-name:** František Petko
+
+****
+**Webový lin** http://portfolio-praci.16mb.com
