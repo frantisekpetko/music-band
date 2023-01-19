@@ -20,6 +20,10 @@
 	color:  mediumspringgreen;
 }
 
+#navDemo {
+	z-index: 999;
+}
+
 .w3-padding-medium-customized {
 	padding: 10px 20px !important;
 }
