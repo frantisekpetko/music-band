@@ -1,22 +1,27 @@
 @import 'https://fonts.googleapis.com/css?family=Uncial+Antiqua';
 
 #loading{
-	z-index:999999;
-	display:block;
-	position:fixed;
+	z-index:999;
+	/*display:block;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
 	top:0;
 	left:0;
 	width:100%;
 	height:100%;
-	background:url(img/loader-logo.gif) 50% 50% no-repeat DarkGreen;
+	background: 50% 50% no-repeat DarkGreen;
+	/* url(img/loader-logo.gif) */
 }
 
 .note{
-	z-index:9999999;
-	position: fixed;
-	top: 50%;
-	left: 50%;
+	z-index:999;
 	color:  mediumspringgreen;
+}
+
+.w3-padding-medium-customized {
+	padding: 10px 20px !important;
 }
 
 body,h1,h2,h3,h4,h5,h6 { font-family: 'Trebuchet MS', Arial, sans-serif;}

@@ -7,12 +7,10 @@ Smyšlená hudební skupina vytvořená těmito webovými technologiemi:
   - W3.CSS
   - JavaScript
   - jQuery
- 
+ ****
 # Kodér/Autor projektu
 
+František Petko
 ****
-**git-nick:** deathbreaker
-**real-name:** František Petko
 
-****
-**Webový link:** http://fp-portfolio.890m.com/band/
+**Webový link:** https://enigmatic-forest-band.netlify.app/
