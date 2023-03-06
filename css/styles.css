@@ -20,7 +20,7 @@
 	color:  mediumspringgreen;
 }
 
-#navDemo {
+#navDemo, #nav {
 	z-index: 999;
 }
 
@@ -37,12 +37,15 @@ p{
     font-size: 1.05em;
 }
 
-
 body, html {
     height: 100%;
     color: #777;
     line-height: 1.8;
     background-color: black;
+}
+
+body {
+	overflow-x: hidden;
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
@@ -256,12 +259,91 @@ body, html {
 
 
 footer{
-	max-height: 130px;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
 	font-weight: 700;
 	line-height: 1;
 	font-size: 1.1em;
 	font-family: 'Sahitya', serif;
 	white-space: pre;
+	min-height: 100px;
+}
+
+#snackbar,
+#invalid-snackbar {
+	display: none;
+	/*visibility: hidden;*/
+	min-width: 250px;
+	margin-left: -125px;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	border-radius: 2px;
+	padding: 16px;
+	position: fixed;
+	z-index: 1;
+	left: 50%;
+	bottom: 30px;
+	font-size: 17px;
+}
+
+#snackbar.show,
+#invalid-snackbar.show {
+	/*visibility: visible;*/
+	display: flex;
+	-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+	animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+	from {
+		bottom: 0;
+		opacity: 0;
+	}
+
+	to {
+		bottom: 30px;
+		opacity: 1;
+	}
+}
+
+@keyframes fadein {
+	from {
+		bottom: 0;
+		opacity: 0;
+	}
+
+	to {
+		bottom: 30px;
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeout {
+	from {
+		bottom: 30px;
+		opacity: 1;
+	}
+
+	to {
+		bottom: 0;
+		opacity: 0;
+	}
+}
+
+@keyframes fadeout {
+	from {
+		bottom: 30px;
+		opacity: 1;
+	}
+
+	to {
+		bottom: 0;
+		opacity: 0;
+	}
 }
 
 
