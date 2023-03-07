@@ -1,7 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Uncial+Antiqua';
 
 #loading{
-	z-index:999;
+	z-index: 1000;
 	/*display:block;*/
 	display: flex;
 	align-items: center;
@@ -21,7 +21,8 @@
 }
 
 #navDemo, #nav {
-	z-index: 999;
+	z-index: 20;
+	top: 0;
 }
 
 .w3-padding-medium-customized {
